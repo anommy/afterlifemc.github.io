@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="imgs/ICON.png">
+	<title>THE AFTERLIFE MC</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="MCSTYLE.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Minecraft server for close friends hosted by Amity and Annie">
+	<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Rokkitt&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mali&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+	<link rel= "shortcut icon" href="imgs/ICON.ico">
+	<link rel="icon" type="image/png" href="imgs/ICON.png" id="favicon">
+<!--	<link rel="icon" type="image/png"  sizes="32x32" href="imgs/ICON.png"> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="imgs/ICON.png">
+	<link rel="icon" sizes= "192x192" href="imgs/ICON.png">
+
+</head>
+<body>
+<main>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"> HOME</a>
+                <a href="downloads.html">DOWNLOADS</a>
+                <a href="sitecredits.html">SITE CREDITS</a>
+            </li>
+        </ul>
+    </nav>
+	<h1>THE AFTERLIFE MC</h1>
+	<p id="randomWord"></p>
+
+	<script>
+	  // Word bank
+	  const wordBank = ["Splash text!", "AAAAAAAAAAAAA", "Meow", "mrrp", "Hi Paul", "Cocky want boing boing!","Pre surgery sesh","Lesbians", "In this house", "In my towns I see those dreams", "Sorry, I have rabies","Stop talking over me I'm homosexual"];
+  
+	  // Function to generate a random word
+	  function generateRandomWord() {
+		const randomIndex = Math.floor(Math.random() * wordBank.length);
+		return wordBank[randomIndex];
+	  }
+  
+	  // Display a random word on page load
+	  document.getElementById("randomWord").textContent = generateRandomWord();
+	</script>
+	
+<img id="img" src="imgs/GROUPPIC.jpg"> 
+	<p>Welcome to the Afterlife!</p>
+    <p>The afterlife is a friends-only minecraft server hosted by Amity and Annie. Archived world files can be found in the downloads tab.</p>
+    <p>If you'd like to support the server, the ko-fi is below! Donations are not expected, but appreciated!</p>
+    <p>- THE AFTERLIFE TEAM</p>
+
+
+</main>
+
+<img onclick="playMusic()" src="imgs/barrier.png">
+
+
+<script>
+function playMusic(){
+	var music = new Audio('RABBIT.mp3');
+	music.play();
+	}
+</script>
+
+</body>
+</html>     
+
+
+
+
+    
+ 

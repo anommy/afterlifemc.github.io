@@ -1,0 +1,148 @@
+  @font-face { 
+    font-family: Minecraft; src: url('fonts/Minecraft.ttf'); } 
+    h1, h2, p, li, button, .tooltip {
+     font-family: Minecraft;
+  }
+
+  #img {
+    max-width: 75%;
+    margin: auto;
+    border: 1px solid white;
+    }
+    
+  #randomWord {
+    color: yellow;
+    text-shadow: 2px 2px #3f3f3f;*/
+  }
+
+  h1, h2 {
+    font-size: 120%;
+    color:white;
+    text-shadow: 2px 2px rgb(13, 1, 29);
+  }
+  
+  p, li, button {
+    color:#ffffff;
+    font-size: 110%;
+/*    text-shadow: 1px 1px #3f3f3f;*/
+  }
+
+  body {
+  text-align: center;
+  background-color:#193957;
+  background-image: url('imgs/valhallablur.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+}
+  
+  main {
+    background: #000000ad;
+    border: 2px solid black;
+    margin: 5px auto;
+    padding: 10px;
+    box-shadow: inset 4px 4px 0px 0px #ffffff, inset -4px -4px 0px 0px rgba(55, 55, 55, 1);
+  }
+  
+  /*She media on my screen til i query*/
+
+  @media screen and (min-width: 768px) {
+    /* screens with a minimum width of 768px (tablets and larger) */
+    main {
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    /* screens with a maximum width of 767px (phones and smaller) */
+    main {
+      max-width: 75%;
+    }
+  }
+
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    
+  }
+
+  ul a {
+    background-color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 4px outset #8b8b8b;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    padding: 8px;
+  }
+
+  nav a:hover, nav a:active {
+    color:white;
+    border: 4px inset #8b8b8b;
+  }
+
+#kofi {
+    width: 10%;
+    border: 4px outset #8b8b8b;
+}
+
+.downloads {
+    padding: 8px;
+    border: 4px inset #8b8b8b;
+    margin: 1%;
+    }
+
+
+button {
+  padding: 10px 20px;
+    background-color: black;
+    border: 4px outset #8b8b8b;
+    margin: 1%;
+    color: gray;
+    display: inline-block;
+    width: auto;
+} 
+
+button:hover, button:active, button:visited {
+  padding: 10px 20px;
+    background-color: black;
+    color:white;
+    border: 4px inset #8b8b8b;
+    margin: 1%;
+}
+
+
+/* tooltip style */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    color:white;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgba(12, 4, 20, 0.93);
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border: 4px solid #2a0b4d;
+    text-shadow: 2px 2px #3f3f3f;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
